@@ -74,3 +74,40 @@ Please enter choice (a/ b/ c/ d): e
 Please enter the first number: 445
 Please enter the second number: 45
 This is an invalid input
+
+__________________________________________________________
+
+EXAMPLES ON r+,w+,a+:
+
+#examples for r+,w+,a+:
+
+myfile=open("Assignment01.txt","r")
+print(myfile.read())
+
+O/P:
+HELLO WHOSOEVER IS READING THIS :)
+
+
+-------------------------------------------
+
+myfile=open("Assignment01.txt","w")
+myfile.write("MY NAME IS SHRUTI SRIVASTAVA")
+
+myfile=open("Assignment01.txt","r")
+print(myfile.read())
+
+O/P:
+MY NAME IS SHRUTI SRIVASTAVA
+
+---------------------------------------------
+
+myfile=open("Assignment01.txt","a")
+myfile.write("\nI AM THE PART OF NOV BATCH FOR THE COURSE OF ML FROM TEACHNOOK") 
+myfile=open("Assignment01.txt","r")
+print(myfile.read())
+
+O/P:
+MY NAME IS SHRUTI SRIVASTAVA
+I AM THE PART OF NOV BATCH FOR THE COURSE OF ML FROM TEACHNOOK
+
+
